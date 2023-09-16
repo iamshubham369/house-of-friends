@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-head{
+    color:rgb(38, 38, 138);
+    text-align:center;
+    margin: 2vw;
+    font-size: 2vw;
+}
+.primary-para{
+    color:rgb(38, 38, 138);
+    text-align:center;
+    margin: 2vw;
+    font-size: 3vw;
+}
+.member{
+    margin-left: 4vw;
+    margin-bottom: 1.5vw;
+    color: rgb(2, 129, 8);
+    font-size: 3.5vw;
+}
+.bio{
+    margin-left: 4vw;
+    color: rgb(2, 129, 8);
+    font-size: 2.6vw;
+}
+.box{
+    padding: 1.5vw;
+    margin: 2vw;
+    margin-bottom: 2vw;
+    display: flex;
+    border: 2px solid rgb(16, 187, 98);
+    border-radius: 2vw;
+}
+.info{
+    width: 70vw;
+}
+.profile{
+    width: 29vw;
+}
+.pic{
+    height: 15vw;
+    margin-left: 4vw;
+    border-radius: 50%;
+    border: 2px solid yellow;
+}
+.read{
+    color: rgb(10, 151, 104);
+    text-decoration: none;
+    background-color:bisque;
+    border: 2px solid rgb(65, 182, 65);
+    padding: 1vw;
+    margin-left: 2vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.read:hover{
+    background-color: rgb(5, 3, 116);
+    padding: 1.5vw;
+}
+#wide{
+    width: 13vw;
+    margin-left: 5vw;
+    border-radius: 50%;
+    border-radius: 2px solid yellow;
+}
+.container {
+    border: 2px solid blue;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.introduc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic h2 {
+    border: 3px solid blue;
+    border-radius: 25%;
+    padding: 0.5vw;
+    margin-bottom: 1vw;
+    color: rgb(163, 90, 0);
+    background-color: rgb(196, 206, 206);
+}
+
+/* .username{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.posts {
+    background-color: rgb(210, 248, 248);
+    border: 2px solid blue;
+    width: 90vw;
+    padding: 1vw;
+    border-radius: 1%;
+}
+
+.post-head {
+    color: blue;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+
+.img {
+    height: 15vw;
+    margin: 0.5vw;
+    border: 2px solid rgb(71, 5, 5);
+    border-radius: 30%;
+}
+
+h1 {
+    margin-top: 1vw;
+    color: blue;
+    font-size: 3vw;
+}
+
+.read2 {
+    color: rgb(220, 244, 255);
+    text-decoration: none;
+    background-color: rgb(121, 167, 245);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.read2:hover {
+    background-color: rgb(5, 3, 116);
+    padding: 1.2vw;
+}
